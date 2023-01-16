@@ -4,6 +4,25 @@ import java.util.Scanner;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
+// 		int count = 0;
+		
+// 		for(int j = 2; count < 30; j++) { //n개를 출력하기 위해 count변수가 n보다 작을 때까지 반복
+// 			boolean prime = true;
+// 			int num = j;
+			
+// 			for (int i = 2; i < num; i++) { //소수의 범위가 2부터 자신을 포함X
+// 				if(num % i == 0) { 
+// 					prime = false;
+// 					break;
+// 				}
+// 			}
+// 			if(prime) {
+// 				System.out.print(j + " ");
+// 				count++;
+// 			}
+			
+// 		}
+		
 		//소수 ex) 2, 3, 5, 7, 11, 13, 17, 19....
 		
 		Scanner scanner = new Scanner(System.in); //정수 입력받기
