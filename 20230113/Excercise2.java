@@ -10,6 +10,5 @@ public class Excercise2 {
 		};
 		System.out.println("arr의 길이: " + arr.length);
 		System.out.println("arr[2]의 길이: " + arr[2].length);
-		System.out.println("마이댕댕❤️");
 	}
 }
