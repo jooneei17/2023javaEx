@@ -2,6 +2,14 @@ package test;
 
 public class RountUp {
 	public static void main(String[] args) {
+				
+		double d = 1.234567;
+		double result = (int)(d * 1000) / 1000d;
+		System.out.println(result);
+		double result2 = (int)(d * 1000 + .9) / 1000d;
+		System.out.println(result2);
+		
+		
 		//올림
 		double num = 1.23406789;//1.235
 		num *= 10000;
