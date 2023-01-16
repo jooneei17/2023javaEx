@@ -2,6 +2,31 @@ package test;
 
 public class Palindrom {
 	public static void main(String[] args) {
+		
+		int num11 = 12321;
+		int origin = 12321; //원본값의 보존을 위해 
+		int result = 0;
+		
+		int temp11 = 0;
+		
+//		숫자를 역순으로 재배치하여 원본 값과 비교
+		while(num11 != 0) {
+			temp11 = num11 % 10;
+			System.out.println(temp11);
+			result *= 10;
+			result += temp11;
+			num11 /= 10;
+			System.out.println(num11);
+			
+		}
+		
+		System.out.println(temp11);
+		System.out.println(num11);
+		System.out.println(result == origin ? "회문수" : "아님");
+		
+		
+		
+		
 		//회문수  ex) 12321, 1234321
 		int num = 232242232; //1 2 3 2 1   1 2 3 4 3 2 1
 		boolean palindrom = true;
